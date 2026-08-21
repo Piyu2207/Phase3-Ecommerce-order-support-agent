@@ -63,7 +63,7 @@ coverage.xml
 # Project Data
 # ============================================================
 
-data/
+
 backend/data/
 frontend/data/
 
