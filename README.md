@@ -53,7 +53,7 @@ SQLite checkpoint store persists graph state by thread_id.
 | 9 | Forensics | `get_state_history()` timeline + anomaly check |
 | 10 | UI/API | FastAPI + Streamlit |
 
-This incremental architecture directly follows the assignment's requested progression from routing through tools, persistence, guardrails, supervisor routing, specialists, gated writes, human approval and time-travel forensics. fileciteturn3file0L29-L34
+This incremental architecture directly follows the assignment's requested progression from routing through tools, persistence, guardrails, supervisor routing, specialists, gated writes, human approval and time-travel forensics.
 
 ## Tools
 
@@ -184,4 +184,4 @@ Expected: checkpoint count, timeline, and approval/write anomaly check.
 
 ## Important scope note
 
-The Phase 3 brief says model serving and RAG retrieval are out of scope; simple mock tools are acceptable because the focus is graph architecture and control. fileciteturn3file0L68-L71
+The Phase 3 brief says model serving and RAG retrieval are out of scope; simple mock tools are acceptable because the focus is graph architecture and control.
