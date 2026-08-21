@@ -4,6 +4,10 @@ A production-oriented multi-agent order-support demo built for the Phase 3 Multi
 
 The Phase 3 brief requires a typed LangGraph `StateGraph`, at least three bound tools including mock CRM lookup and a severity-gated write, SQLite persistence across restart, ingress/egress guardrails, a supervisor coordinating at least two specialists, human approval with approve/deny/edit-and-approve, checkpoint forensics, FastAPI endpoints, and a minimal UI. fileciteturn3file0L53-L67
 
+## Why this domain
+
+E-commerce maps cleanly to the rubric: multiple support intents naturally become specialist workers; the refund action is a real write boundary; high-value refunds create a visible HITL interrupt; fraud is high severity; and the mock CRM gives deterministic evidence for demos.
+
 ## Architecture
 
 ```text
@@ -181,4 +185,3 @@ Expected: checkpoint count, timeline, and approval/write anomaly check.
 ## Important scope note
 
 The Phase 3 brief says model serving and RAG retrieval are out of scope; simple mock tools are acceptable because the focus is graph architecture and control. fileciteturn3file0L68-L71
-
